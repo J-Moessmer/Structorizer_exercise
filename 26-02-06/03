@@ -6,7 +6,7 @@ using System;
 /// </summary>
 public class 03_26-02-06
 {
-
+ 
 	/// <param name="args"> array of command line arguments </param>
 	public static void Main(string[] args)
 	{
