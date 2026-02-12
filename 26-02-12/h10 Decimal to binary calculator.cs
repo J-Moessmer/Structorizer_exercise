@@ -12,8 +12,7 @@ public class decimal_to_binary_calculator
 	{
 
 		// TODO: Check and accomplish variable declarations: 
-		string shft;
-		string r;
+		string binary;
 
 		// TODO: You may have to modify input instructions, 
 		//       possibly by enclosing Console.ReadLine() calls with 
@@ -21,8 +20,7 @@ public class decimal_to_binary_calculator
 		//          i = int.Parse(Console.ReadLine()); 
 
 		dec = Console.ReadLine();
-		shft = "";
-		r = "";
+		binary = "";
 		if (dec == 0)
 		{
 			Console.WriteLine(0);
@@ -32,10 +30,10 @@ public class decimal_to_binary_calculator
 			while (dec > 0)
 			{
 				??? bin = dec%2;
-				shft = bin+shft;
+				binary = bin+binary;
 				??? dec = dec/2;
 			}
-			Console.WriteLine(shft);
+			Console.WriteLine(binary);
 		}
 	}
 
