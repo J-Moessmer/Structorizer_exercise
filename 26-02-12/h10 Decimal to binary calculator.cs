@@ -14,7 +14,6 @@ public class decimal_to_binary_calculator
 		// TODO: Check and accomplish variable declarations: 
 		string shft;
 		string r;
-		int binary;
 
 		// TODO: You may have to modify input instructions, 
 		//       possibly by enclosing Console.ReadLine() calls with 
@@ -37,7 +36,6 @@ public class decimal_to_binary_calculator
 				??? dec = dec/2;
 			}
 			Console.WriteLine(shft);
-			binary = 1;
 		}
 	}
 
