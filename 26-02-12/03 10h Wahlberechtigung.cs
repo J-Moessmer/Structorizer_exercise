@@ -24,7 +24,7 @@ public class 03_10h_Wahlberechtigung
 		Console.Write("Gebe dein geburtsjahr an"); gjahr = Console.ReadLine();
 		// read date from device clock 
 		date = 2026;
-		if (date-gjahr > 18)
+		if (date-gjahr >= 18)
 		{
 			Console.WriteLine("Du bist wahlberechtigt");
 		}
