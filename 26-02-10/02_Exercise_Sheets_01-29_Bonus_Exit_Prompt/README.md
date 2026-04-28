@@ -8,205 +8,74 @@ This program was generated from a Structorizer diagram and demonstrates basic pr
 ## 📊 Logic Flow
 ```mermaid
 graph TD
-    A["Start"]
-    B["Input value"]
-    C["Loop"]
-    D["Output message"]
-    E["Input value"]
-    F["Output message"]
-    G["Input value"]
-    H["Output message"]
-    I["Input value"]
-    J["Check condition"]
-    K["Output message"]
-    L["Check condition"]
-    M["Output message"]
-    N["Input value"]
-    O["Loop"]
-    P["Input value"]
-    Q["Output message"]
-    R["Loop"]
-    S["Output message"]
-    T["Input value"]
-    U["Check condition"]
-    V["Output message"]
-    W["Check condition"]
-    X["Output message"]
-    Y["Input value"]
-    Z["Loop"]
-    AA["Input value"]
-    AB["Output message"]
-    AC["Input value"]
-    AD["Output message"]
-    AE["Input value"]
-    AF["Loop"]
-    AG["Output message"]
-    AH["Loop"]
-    AI["Output message"]
-    AJ["Input value"]
-    AK["Output message"]
-    AL["Input value"]
-    AM["Output message"]
-    AN["Input value"]
-    AO["Output message"]
-    AP["Loop"]
-    AQ["Input value"]
-    AR["Check condition"]
-    AS["Output message"]
-    AT["Input value"]
-    AU["Output message"]
-    AV["Loop"]
-    AW["Input value"]
-    AX["Loop"]
-    AY["Output message"]
-    AZ["Input value"]
-    BA["Check condition"]
-    BB["Output message"]
-    BC["Check condition"]
-    BD["Output message"]
-    BE["Input value"]
-    BF["Output message"]
-    BG["Input value"]
-    BH["Output message"]
-    BI["Input value"]
-    BJ["Output message"]
-    BK["Input value"]
-    BL["Loop"]
-    BM["Output message"]
-    BN["Input value"]
-    BO["Loop"]
-    BP["Output message"]
-    BQ["Input value"]
-    BR["Output message"]
-    BS["Input value"]
-    BT["Check condition"]
-    BU["Loop"]
-    BV["Check condition"]
-    BW["Output message"]
-    BX["Input value"]
-    BY["Check condition"]
-    BZ["Output message"]
-    CA["Check condition"]
-    CB["Output message"]
-    CC["Input value"]
-    CD["Loop"]
-    CE["Output message"]
-    CF["Input value"]
-    CG["Output message"]
-    CH["Input value"]
-    CI["Check condition"]
-    CJ["Output message"]
-    CK["Input value"]
-    CL["Loop"]
-    CM["Output message"]
-    CN["Input value"]
-    CO["Check condition"]
-    CP["Output message"]
-    CQ["Input value"]
-    CR["Loop"]
-    CS["Output message"]
-    CT["Input value"]
-    CU["Loop"]
-    CV["End"]
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-    I --> J
-    J --> K
-    K --> L
-    L --> M
-    M --> N
-    N --> O
-    O --> P
-    P --> Q
-    Q --> R
-    R --> S
-    S --> T
-    T --> U
-    U --> V
-    V --> W
-    W --> X
-    X --> Y
-    Y --> Z
-    Z --> AA
-    AA --> AB
-    AB --> AC
-    AC --> AD
-    AD --> AE
-    AE --> AF
-    AF --> AG
-    AG --> AH
-    AH --> AI
-    AI --> AJ
-    AJ --> AK
-    AK --> AL
-    AL --> AM
-    AM --> AN
-    AN --> AO
-    AO --> AP
-    AP --> AQ
-    AQ --> AR
-    AR --> AS
-    AS --> AT
-    AT --> AU
-    AU --> AV
-    AV --> AW
-    AW --> AX
-    AX --> AY
-    AY --> AZ
-    AZ --> BA
-    BA --> BB
-    BB --> BC
-    BC --> BD
-    BD --> BE
-    BE --> BF
-    BF --> BG
-    BG --> BH
-    BH --> BI
-    BI --> BJ
-    BJ --> BK
-    BK --> BL
-    BL --> BM
-    BM --> BN
-    BN --> BO
-    BO --> BP
-    BP --> BQ
-    BQ --> BR
-    BR --> BS
-    BS --> BT
-    BT --> BU
-    BU --> BV
-    BV --> BW
-    BW --> BX
-    BX --> BY
-    BY --> BZ
-    BZ --> CA
-    CA --> CB
-    CB --> CC
-    CC --> CD
-    CD --> CE
-    CE --> CF
-    CF --> CG
-    CG --> CH
-    CH --> CI
-    CI --> CJ
-    CJ --> CK
-    CK --> CL
-    CL --> CM
-    CM --> CN
-    CN --> CO
-    CO --> CP
-    CP --> CQ
-    CQ --> CR
-    CR --> CS
-    CS --> CT
-    CT --> CU
-    CU --> CV
+    Start["Start"] --> Menu["Show Exercise List"]
+    Menu --> Selection{"User Selection"}
+    
+    Selection -- "01" --> C1["Simple Sequence"]
+    Selection -- "02" --> C2["If-Else Condition"]
+    Selection -- "03" --> C3["While Loop"]
+    Selection -- "04" --> C4["For Loop"]
+    Selection -- "05" --> C5["Nested Condition"]
+    Selection -- "06" --> C6["Input Validation"]
+    Selection -- "07" --> C7["Simple Function"]
+    Selection -- "08" --> C8["Sum Calculation"]
+    Selection -- "09" --> C9["Number Line"]
+    Selection -- "10" --> C10["Average Calculation"]
+    Selection -- "11" --> C11["Determine Age"]
+    Selection -- "12" --> C12["Fibonacci Numbers"]
+    Selection -- "13" --> C13["Check Divisibility"]
+    Selection -- "14" --> C14["Countdown"]
+    Selection -- "15" --> C15["Reverse Numbers"]
+    Selection -- "16" --> C16["Find Largest Number"]
+    Selection -- "17" --> C17["Calculate Square"]
+    Selection -- "18" --> C18["Celsius to Fahrenheit"]
+    Selection -- "19" --> C19["Simple Interest"]
+    Selection -- "20" --> C20["Vocabulary Match"]
+    Selection -- "21" --> C21["Sum of Even Numbers"]
+    Selection -- "22" --> C22["Meters to Kilometers"]
+    Selection -- "23" --> C23["Prime Check"]
+    Selection -- "24" --> C24["Multiple Conditions"]
+    Selection -- "25" --> C25["Simple Text Output"]
+    Selection -- "26" --> C26["Reverse Counting"]
+    Selection -- "27" --> C27["Average of 10"]
+    Selection -- "28" --> C28["String Comparison"]
+    Selection -- "29" --> C29["Multiplication Table"]
+    Selection -- "30" --> C30["Number Guess Game"]
+
+    C1 --> ExitCheck{"Exit Prompt"}
+    C2 --> ExitCheck
+    C3 --> ExitCheck
+    C4 --> ExitCheck
+    C5 --> ExitCheck
+    C6 --> ExitCheck
+    C7 --> ExitCheck
+    C8 --> ExitCheck
+    C9 --> ExitCheck
+    C10 --> ExitCheck
+    C11 --> ExitCheck
+    C12 --> ExitCheck
+    C13 --> ExitCheck
+    C14 --> ExitCheck
+    C15 --> ExitCheck
+    C16 --> ExitCheck
+    C17 --> ExitCheck
+    C18 --> ExitCheck
+    C19 --> ExitCheck
+    C20 --> ExitCheck
+    C21 --> ExitCheck
+    C22 --> ExitCheck
+    C23 --> ExitCheck
+    C24 --> ExitCheck
+    C25 --> ExitCheck
+    C26 --> ExitCheck
+    C27 --> ExitCheck
+    C28 --> ExitCheck
+    C29 --> ExitCheck
+    C30 --> ExitCheck
+
+    ExitCheck -- "Continue" --> Selection
+    ExitCheck -- "Exit" --> End["End"]
+
 
 ```
 
