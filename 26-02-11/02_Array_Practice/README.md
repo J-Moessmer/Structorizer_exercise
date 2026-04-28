@@ -8,12 +8,19 @@ This program was generated from a Structorizer diagram and demonstrates basic pr
 ## 📊 Logic Flow
 ```mermaid
 graph TD
-    A[Start] --> B[Loop]
-    B[Loop] --> C[Check condition]
-    C[Check condition] --> D[Loop]
-    D[Loop] --> E[Check condition]
-    E[Check condition] --> F[Loop]
-    F[Loop] --> G[End]
+    A["Start"]
+    B["Loop"]
+    C["Check condition"]
+    D["Loop"]
+    E["Check condition"]
+    F["Loop"]
+    G["End"]
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 
 ```
 

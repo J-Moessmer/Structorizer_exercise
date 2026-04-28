@@ -8,103 +8,201 @@ This program was generated from a Structorizer diagram and demonstrates basic pr
 ## 📊 Logic Flow
 ```mermaid
 graph TD
-    A[Start] --> B[Input value]
-    B[Input value] --> C[Loop]
-    C[Loop] --> D[Output message]
-    D[Output message] --> E[Input value]
-    E[Input value] --> F[Output message]
-    F[Output message] --> G[Input value]
-    G[Input value] --> H[Output message]
-    H[Output message] --> I[Input value]
-    I[Input value] --> J[Check condition]
-    J[Check condition] --> K[Output message]
-    K[Output message] --> L[Check condition]
-    L[Check condition] --> M[Output message]
-    M[Output message] --> N[Input value]
-    N[Input value] --> O[Loop]
-    O[Loop] --> P[Input value]
-    P[Input value] --> Q[Output message]
-    Q[Output message] --> R[Loop]
-    R[Loop] --> S[Output message]
-    S[Output message] --> T[Input value]
-    T[Input value] --> U[Check condition]
-    U[Check condition] --> V[Output message]
-    V[Output message] --> W[Check condition]
-    W[Check condition] --> X[Output message]
-    X[Output message] --> Y[Input value]
-    Y[Input value] --> Z[Loop]
-    Z[Loop] --> [[Input value]
-    [[Input value] --> \[Output message]
-    \[Output message] --> ][Input value]
-    ][Input value] --> ^[Output message]
-    ^[Output message] --> _[Input value]
-    _[Input value] --> `[Loop]
-    `[Loop] --> a[Output message]
-    a[Output message] --> b[Loop]
-    b[Loop] --> c[Output message]
-    c[Output message] --> d[Input value]
-    d[Input value] --> e[Output message]
-    e[Output message] --> f[Input value]
-    f[Input value] --> g[Output message]
-    g[Output message] --> h[Input value]
-    h[Input value] --> i[Output message]
-    i[Output message] --> j[Loop]
-    j[Loop] --> k[Input value]
-    k[Input value] --> l[Check condition]
-    l[Check condition] --> m[Output message]
-    m[Output message] --> n[Input value]
-    n[Input value] --> o[Output message]
-    o[Output message] --> p[Loop]
-    p[Loop] --> q[Input value]
-    q[Input value] --> r[Loop]
-    r[Loop] --> s[Output message]
-    s[Output message] --> t[Input value]
-    t[Input value] --> u[Check condition]
-    u[Check condition] --> v[Output message]
-    v[Output message] --> w[Check condition]
-    w[Check condition] --> x[Output message]
-    x[Output message] --> y[Input value]
-    y[Input value] --> z[Output message]
-    z[Output message] --> {[Input value]
-    {[Input value] --> |[Output message]
-    |[Output message] --> }[Input value]
-    }[Input value] --> ~[Output message]
-    ~[Output message] --> [Input value]
-    [Input value] --> [Loop]
-    [Loop] --> [Output message]
-    [Output message] --> [Input value]
-    [Input value] --> [Loop]
-    [Loop] --> [Output message]
-    [Output message] --> [Input value]
-    [Input value] --> [Output message]
-    [Output message] --> [Input value]
-    [Input value] --> [Check condition]
-    [Check condition] --> [Loop]
-    [Loop] --> [Check condition]
-    [Check condition] --> [Output message]
-    [Output message] --> [Input value]
-    [Input value] --> [Check condition]
-    [Check condition] --> [Output message]
-    [Output message] --> [Check condition]
-    [Check condition] --> [Output message]
-    [Output message] --> [Input value]
-    [Input value] --> [Loop]
-    [Loop] --> [Output message]
-    [Output message] --> [Input value]
-    [Input value] --> [Output message]
-    [Output message] --> [Input value]
-    [Input value] --> [Check condition]
-    [Check condition] --> [Output message]
-    [Output message] --> [Input value]
-    [Input value] --> [Loop]
-    [Loop] --> [Output message]
-    [Output message] --> [Input value]
-    [Input value] --> [Check condition]
-    [Check condition] --> [Output message]
-    [Output message] --> [Input value]
-    [Input value] -->  [Loop]
-     [Loop] --> ¡[Output message]
-    ¡[Output message] --> ¢[End]
+    A["Start"]
+    B["Input value"]
+    C["Loop"]
+    D["Output message"]
+    E["Input value"]
+    F["Output message"]
+    G["Input value"]
+    H["Output message"]
+    I["Input value"]
+    J["Check condition"]
+    K["Output message"]
+    L["Check condition"]
+    M["Output message"]
+    N["Input value"]
+    O["Loop"]
+    P["Input value"]
+    Q["Output message"]
+    R["Loop"]
+    S["Output message"]
+    T["Input value"]
+    U["Check condition"]
+    V["Output message"]
+    W["Check condition"]
+    X["Output message"]
+    Y["Input value"]
+    Z["Loop"]
+    AA["Input value"]
+    AB["Output message"]
+    AC["Input value"]
+    AD["Output message"]
+    AE["Input value"]
+    AF["Loop"]
+    AG["Output message"]
+    AH["Loop"]
+    AI["Output message"]
+    AJ["Input value"]
+    AK["Output message"]
+    AL["Input value"]
+    AM["Output message"]
+    AN["Input value"]
+    AO["Output message"]
+    AP["Loop"]
+    AQ["Input value"]
+    AR["Check condition"]
+    AS["Output message"]
+    AT["Input value"]
+    AU["Output message"]
+    AV["Loop"]
+    AW["Input value"]
+    AX["Loop"]
+    AY["Output message"]
+    AZ["Input value"]
+    BA["Check condition"]
+    BB["Output message"]
+    BC["Check condition"]
+    BD["Output message"]
+    BE["Input value"]
+    BF["Output message"]
+    BG["Input value"]
+    BH["Output message"]
+    BI["Input value"]
+    BJ["Output message"]
+    BK["Input value"]
+    BL["Loop"]
+    BM["Output message"]
+    BN["Input value"]
+    BO["Loop"]
+    BP["Output message"]
+    BQ["Input value"]
+    BR["Output message"]
+    BS["Input value"]
+    BT["Check condition"]
+    BU["Loop"]
+    BV["Check condition"]
+    BW["Output message"]
+    BX["Input value"]
+    BY["Check condition"]
+    BZ["Output message"]
+    CA["Check condition"]
+    CB["Output message"]
+    CC["Input value"]
+    CD["Loop"]
+    CE["Output message"]
+    CF["Input value"]
+    CG["Output message"]
+    CH["Input value"]
+    CI["Check condition"]
+    CJ["Output message"]
+    CK["Input value"]
+    CL["Loop"]
+    CM["Output message"]
+    CN["Input value"]
+    CO["Check condition"]
+    CP["Output message"]
+    CQ["Input value"]
+    CR["Loop"]
+    CS["Output message"]
+    CT["End"]
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+    I --> J
+    J --> K
+    K --> L
+    L --> M
+    M --> N
+    N --> O
+    O --> P
+    P --> Q
+    Q --> R
+    R --> S
+    S --> T
+    T --> U
+    U --> V
+    V --> W
+    W --> X
+    X --> Y
+    Y --> Z
+    Z --> AA
+    AA --> AB
+    AB --> AC
+    AC --> AD
+    AD --> AE
+    AE --> AF
+    AF --> AG
+    AG --> AH
+    AH --> AI
+    AI --> AJ
+    AJ --> AK
+    AK --> AL
+    AL --> AM
+    AM --> AN
+    AN --> AO
+    AO --> AP
+    AP --> AQ
+    AQ --> AR
+    AR --> AS
+    AS --> AT
+    AT --> AU
+    AU --> AV
+    AV --> AW
+    AW --> AX
+    AX --> AY
+    AY --> AZ
+    AZ --> BA
+    BA --> BB
+    BB --> BC
+    BC --> BD
+    BD --> BE
+    BE --> BF
+    BF --> BG
+    BG --> BH
+    BH --> BI
+    BI --> BJ
+    BJ --> BK
+    BK --> BL
+    BL --> BM
+    BM --> BN
+    BN --> BO
+    BO --> BP
+    BP --> BQ
+    BQ --> BR
+    BR --> BS
+    BS --> BT
+    BT --> BU
+    BU --> BV
+    BV --> BW
+    BW --> BX
+    BX --> BY
+    BY --> BZ
+    BZ --> CA
+    CA --> CB
+    CB --> CC
+    CC --> CD
+    CD --> CE
+    CE --> CF
+    CF --> CG
+    CG --> CH
+    CH --> CI
+    CI --> CJ
+    CJ --> CK
+    CK --> CL
+    CL --> CM
+    CM --> CN
+    CN --> CO
+    CO --> CP
+    CP --> CQ
+    CQ --> CR
+    CR --> CS
+    CS --> CT
 
 ```
 

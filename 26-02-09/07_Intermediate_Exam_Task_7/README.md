@@ -8,9 +8,13 @@ This program was generated from a Structorizer diagram and demonstrates basic pr
 ## 📊 Logic Flow
 ```mermaid
 graph TD
-    A[Start] --> B[Loop]
-    B[Loop] --> C[Output message]
-    C[Output message] --> D[End]
+    A["Start"]
+    B["Loop"]
+    C["Output message"]
+    D["End"]
+    A --> B
+    B --> C
+    C --> D
 
 ```
 
